@@ -12,7 +12,7 @@ section.notFound p {
 
 @media screen and (min-width: 601px) {
   header.notFound {
-    background: url(../images/normal/cta.png) no-repeat 0%;
+    background: url(https://aaaassignments.com/images/normal/cta.png) no-repeat 0%;
     height: 50vh;
     background-size: cover;
   }
@@ -21,7 +21,7 @@ section.notFound p {
 @media screen and (max-width: 600px) {
   header.notFound {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../images/normal/cta.png) no-repeat 50% 50%;
+      url(https://aaaassignments.com/images/normal/cta.png) no-repeat 50% 50%;
     background-size: cover;
     height: 50%;
   }
