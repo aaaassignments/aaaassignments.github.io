@@ -1,0 +1,348 @@
+.hr {
+  height: 2;
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-box {
+  width: 90%;
+  color: #000;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box p {
+  margin: 5px 0 40px;
+  font-size: 17px;
+  color: #000;
+}
+
+.aboutUs h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.aboutUs p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+/*----Tickets----*/
+.tickets {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+  color: #000;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-col div p {
+  padding: 0;
+  color: #ffffff;
+}
+
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #051551;
+  font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea,
+.contact-col select {
+  width: -webkit-fill-available;
+  padding: 15px;
+  margin-bottom: 17px;
+  border: 5px solid #4ac34a;
+  background: #bfbfbf;
+}
+
+.contact-col a {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #626fcb;
+  font-weight: 400;
+}
+
+.faq {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #000000;
+}
+
+.accordion {
+  background-color: #4ac34a;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  margin-top: 0.6%;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 7px;
+}
+
+.active,
+.accordion:hover {
+  box-shadow: 0 0 10px 10px #ffffff;
+  border: 4px solid #4ac34a;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  border: 2.7px solid #4ac34a;
+  display: none;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.accordion:after {
+  content: "\02795";
+  font-size: 14px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.testimonials {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  color: #000000;
+}
+
+.testimonial-col {
+  margin: 15px;
+  flex-basis: 30%;
+  border-radius: 7px;
+  margin-bottom: -1%;
+  text-align: left;
+  background: #4ac34a;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.testimonial-col img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.testimonial-col:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 20px #ffffff;
+  border: 4px solid #4ac34a;
+}
+
+.testimonial-col p {
+  padding: 0;
+}
+
+.testimonial-col h3 {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/normal/cta.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 15% 0;
+}
+
+.cta h1 {
+  color: #000;
+  margin-left: 19%;
+  padding: 0;
+}
+
+.join-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border: 3px solid #4ac34a;
+  padding: 12px 34px;
+  font-size: 15px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20%;
+}
+
+.join-btn:hover {
+  border: 5px solid #4ac34a;
+  box-shadow: 0 0 10px 10px #ff0000;
+  background: #ffffff;
+  color: #000000;
+  transition: 2s;
+}
+
+@media screen and (min-width: 601px) {
+  .aboutUs {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    color: #000;
+  }
+
+  .text-box h1 {
+    font-size: 70px;
+  }
+
+  .row {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header.main {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+      url(../images/normal/header.png) no-repeat 100% 50%;
+    background-size: cover;
+  }
+
+  nav.nav-bar div.navTings {
+    display: contents;
+  }
+
+  nav.nav-bar div.bars a.icon {
+    display: none;
+  }
+
+  nav.nav-bar div a.icon img.bars-icon {
+    display: none;
+  }
+
+  nav.nav-bar div.right li a {
+    padding: 1.5rem 1rem 0rem 1rem;
+  }
+
+  nav.nav-bar div.right {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutUs {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    color: #000;
+  }
+
+  .text-box h1 {
+    font-size: 40px;
+  }
+
+  .row {
+    margin-top: 3%;
+    justify-content: space-between;
+  }
+
+  header div.text-box {
+    margin: 50px;
+  }
+
+  header.main {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/normal/header.png) no-repeat 85% 50%;
+    background-size: cover;
+  }
+
+  nav.nav-bar div.navTings {
+    display: flex;
+  }
+
+  nav.nav-bar div.right li a {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  nav.nav-bar div a.icon img.bars-icon {
+    text-align: left;
+    display: block;
+    padding: 1rem;
+    float: right;
+    height: 2rem;
+    width: auto;
+  }
+
+  nav.nav-bar.responsive li.hide {
+    text-align: left;
+    display: block;
+    float: none;
+  }
+
+  div.options {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+
+  nav.nav-bar li.hide {
+    display: none;
+  }
+}

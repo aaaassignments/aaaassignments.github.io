@@ -1,0 +1,28 @@
+section.notFound {
+  text-align: center;
+  padding: 10px 10px 50px 10px;
+  margin: auto;
+  width: 50%;
+}
+
+section.notFound p {
+  color: #000000;
+  font-size: xxx-large;
+}
+
+@media screen and (min-width: 601px) {
+  header.notFound {
+    background: url(../images/normal/cta.png) no-repeat 0%;
+    height: 50vh;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header.notFound {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/normal/cta.png) no-repeat 50% 50%;
+    background-size: cover;
+    height: 50%;
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open home page",
+            "file": "c:\\files and stuff\\code tings\\CyphicOfficial.github.io\\index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open contact us page",
+            "file": "c:\\files and stuff\\code tings\\CyphicOfficial.github.io\\contact\\index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open 404 page",
+            "file": "c:\\files and stuff\\code tings\\CyphicOfficial.github.io\\404.html"
+        }
+    ]
+}
